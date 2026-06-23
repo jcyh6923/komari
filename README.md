@@ -70,6 +70,13 @@ GitHub Actions 会自动：
 
 ## 2. 前置准备：Cloudflare Tunnel 配置
 
+#### 0. 启用 gRPC 支持
+
+1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
+2. 选择你要使用的域名
+3. 进入 **网络** 选项
+4. 找到 **gRPC** 开关，将其启用打开
+
 #### 1. 创建 Cloudflare Tunnel
 
 1. 登录 [Cloudflare Dashboard](https://dash.cloudflare.com/)
