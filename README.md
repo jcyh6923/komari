@@ -692,6 +692,8 @@ sudo systemctl daemon-reload
 
 ---
 
+<a id="必需配置"></a>
+
 ### 必需配置
 
 | 变量 | 说明 | 示例 |
@@ -705,6 +707,10 @@ sudo systemctl daemon-reload
 | `GH_BACKUP_BRANCH` | 备份分支 | `main` |
 | `GH_PAT` | GitHub Personal Access Token | `ghp_xxxxx` |
 | `GH_EMAIL` | Git 提交邮箱 | `user@example.com` |
+
+---
+
+<a id="可选配置--节点订阅"></a>
 
 ### 可选配置 - 节点订阅
 
@@ -726,6 +732,10 @@ https://{ARGO_DOMAIN}/{UUID}
 ```
 https://komari.example.com/550e8400-e29b-41d4-a716-446655440000
 ```
+
+---
+
+<a id="可选配置--其他"></a>
 
 ### 可选配置 - 其他
 
